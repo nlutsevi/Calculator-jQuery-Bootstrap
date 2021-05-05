@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <link rel="stylesheet" href="stylesheet.css">
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="operations.js"></script>
+    </header>
+    <body>
+    <div class="container">
+        <div id="header">
+          <h3>jQuery Calculator</h3></div>
+        <div id="calc" class="text-center">
+          <div id="display">
+          <div id="result"><p>0</p></div>
+          <div id="previous"><p>0</p></div>
+          </div>
+            <div id="keyboard">
+            <div class="row">
+                <button class="btn btn-danger" value="ac">AC</button>
+                <button class="btn btn-danger" value="ce">CE</button>
+                <button class="btn btn-warning" value=".">.</button>
+              <button class="btn btn-warning" value="-">-</button>           
+            </div>
+            <div class="row">
+                <button class="btn btn-light" value="7">7</button>
+                <button class="btn btn-light" value="8">8</button>
+                <button class="btn btn-light" value="9">9</button>
+                <button class="btn btn-warning" value="/">/</button>
+            </div>
+            <div class="row">
+                <button class="btn btn-light" value="4">4</button>
+                <button class="btn btn-light" value="5">5</button>
+                <button class="btn btn-light" value="6">6</button>
+                <button class="btn btn-warning" value="*">*</button>
+            </div>
+            <div class="row">
+                <button class="btn btn-light" value="1">1</button>
+                <button class="btn btn-light" value="2">2</button>
+                <button class="btn btn-light" value="3">3</button>
+                <button class="btn btn-warning" value="+">+</button>
+                
+            </div>
+            <div class="row last-row">
+                <button class="btn btn-light btn-zero" value="0">0</button>
+                <button class="btn btn-success btn-result" value="=">=</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </body>
+</html>
